@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.ufcg.psoft.pitsa9.integration.basics.CucumberIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.292 sec <<< FAILURE! - in com.ufcg.psoft.pitsa9.integration.basics.CucumberIntegrationTest
+client makes call to GET /api/produtos(the initializated products can be retrieved)  Time elapsed: 0.164 sec  <<< ERROR!
+io.cucumber.core.backend.CucumberBackendException: 
+Please annotate a glue class with some context configuration.
+
+For example:
+
+   @CucumberContextConfiguration
+   @SpringBootTest(classes = TestConfig.class)
+   public class CucumberSpringConfiguration { }
+Or: 
+
+   @CucumberContextConfiguration
+   @ContextConfiguration( ... )
+   public class CucumberSpringConfiguration { }
+
+com.ufcg.psoft.pitsa9.integration.basics.CucumberIntegrationTest  Time elapsed: 0.277 sec  <<< ERROR!
+org.junit.runner.notification.StoppedByUserException
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+

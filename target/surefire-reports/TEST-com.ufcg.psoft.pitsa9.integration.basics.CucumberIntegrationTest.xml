@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ufcg.psoft.pitsa9.integration.basics.CucumberIntegrationTest" time="1.292" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.boot.library.path" value="C:\Users\davys\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\davys\Downloads\pits-a-grupo9-psoft-US17final"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\davys\Downloads\pits-a-grupo9-psoft-US17final"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\davys\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\davys\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5881316308273152454.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\davys\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/davys/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/davys/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\davys\AppData\Local\Microsoft\WindowsApps;;C:\Users\davys\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\davys\.dotnet\tools;C:\WINDOWS\System32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\davys"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="DavysonDouglas"/>
+    <property name="java.class.path" value="C:\Users\davys\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always package"/>
+    <property name="java.home" value="C:\Users\davys\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\davys\Downloads\pits-a-grupo9-psoft-US17final\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="m2e.build.project.data.socket.port" value="60014"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="client makes call to GET /api/produtos" classname="the initializated products can be retrieved" time="0.164">
+    <error message="Please annotate a glue class with some context configuration.&#10;&#10;For example:&#10;&#10;   @CucumberContextConfiguration&#10;   @SpringBootTest(classes = TestConfig.class)&#10;   public class CucumberSpringConfiguration { }&#10;Or: &#10;&#10;   @CucumberContextConfiguration&#10;   @ContextConfiguration( ... )&#10;   public class CucumberSpringConfiguration { }" type="io.cucumber.core.backend.CucumberBackendException">io.cucumber.core.backend.CucumberBackendException: 
+Please annotate a glue class with some context configuration.
+
+For example:
+
+   @CucumberContextConfiguration
+   @SpringBootTest(classes = TestConfig.class)
+   public class CucumberSpringConfiguration { }
+Or: 
+
+   @CucumberContextConfiguration
+   @ContextConfiguration( ... )
+   public class CucumberSpringConfiguration { }
+</error>
+  </testcase>
+  <testcase name="com.ufcg.psoft.pitsa9.integration.basics.CucumberIntegrationTest" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="0.277">
+    <error type="org.junit.runner.notification.StoppedByUserException">org.junit.runner.notification.StoppedByUserException
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+</error>
+    <system-err><![CDATA[&amp#27;[32m&amp#27;[1m?????????????????????????????????????????????????????????????????????????????????????&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m Share your Cucumber Report with your team at &amp#27;[36m&amp#27;[1m&amp#27;[4mhttps://reports.cucumber.io&amp#27;[0m          &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m Activate publishing with one of the following:                                    &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m Environment variable:                            &amp#27;[36mCUCUMBER_PUBLISH_ENABLED&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m JUnit:                                           &amp#27;[36m@CucumberOptions&amp#27;[0m(publish = &amp#27;[36mtrue&amp#27;[0m) &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m More information at &amp#27;[36mhttps://reports.cucumber.io/docs/cucumber-jvm&amp#27;[0m                 &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m Disable this message with one of the following:                                   &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m?&amp#27;[0m
+&amp#27;[32m&amp#27;[1m?????????????????????????????????????????????????????????????????????????????????????&amp#27;[0m
+]]></system-err>
+  </testcase>
+</testsuite>
